@@ -4,7 +4,6 @@ Webapp designed to gamify tech event booth attendance for employers. When an eve
 Coordinates are set to an incubator and tech event space in London:  51.5050° N, 0.0195° W and can be reset to each event's location in geolocator.js
 
 ## App rendered in browser
-
-[App rendered in browser](https://aschenbrenner3.github.io/tech-event-booth-geolocation-webapp/)
 ![app-rendered-in-browser](https://github.com/aschenbrenner3/tech-event-booth-geolocation-webapp/blob/master/images/event-booth-app-rendered-in-browser.png "Tech Event Booth App Rendered in Browser")
+[App rendered in browser](https://aschenbrenner3.github.io/tech-event-booth-geolocation-webapp/)
 
