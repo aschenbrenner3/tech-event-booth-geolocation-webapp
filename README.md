@@ -6,5 +6,5 @@ Coordinates are set to an incubator and tech event space in London:  51.5050° N
 ## App rendered in browser
 
 [App rendered in browser](https://aschenbrenner3.github.io/tech-event-booth-geolocation-webapp/)
-![app-rendered-in-browser](https://github.com/aschenbrenner3/tech-event-booth-geolocation-webapp/blob/master/images/event-boot-app-rendered-in-browser.png "Tech Event Booth App Rendered in Browser")
+![app-rendered-in-browser](https://github.com/aschenbrenner3/tech-event-booth-geolocation-webapp/blob/master/images/event-booth-app-rendered-in-browser.png "Tech Event Booth App Rendered in Browser")
 
