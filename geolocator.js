@@ -21,9 +21,9 @@ function success(position){
 	var userLon = position.coords.longitude;
 
   // Store target location in variables
-  var targetLat = 52.948352;
-  var targetLon = -1.1431575;
-  // This location is in Nottingham
+  var targetLat = 37.5425789;
+  var targetLon = -77.4693849;
+  // This location is in Richmond, VA
   
   //Set the Radius 
   var rad = 0.01; // 0.01km= 10 meters
