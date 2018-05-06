@@ -21,12 +21,12 @@ function success(position){
 	var userLon = position.coords.longitude;
 
   // Store target location in variables
-  var targetLat = 37.5425789;
-  var targetLon = -77.4693849;
+  var targetLat = 37.5424004;
+  var targetLon = -77.46983869999997;
   // This location is in Richmond, VA
   
   //Set the Radius 
-  var rad = 0.01; // 0.01km= 10 meters
+  var rad = 32; // 0.01km= 10 meters
   
   //Calculate the distance
   var distance = getDistanceFromLatLonInKm(userLat,userLon,targetLat,targetLon);  
