@@ -1,38 +1,43 @@
 <html>
+
 <head>
-<link href='https://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="apple-touch-icon" href="//assets.decoded.com/images/apple-touch-icon.png">
-<link rel="icon" sizes="296x296" href="//assets.decoded.com/images/apple-touch-icon.png">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="mobile-web-app-capable" content="yes">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css">
-<link rel="stylesheet" type="text/css" href="style.css">
-<title>Employee Open Data</title>
-<style>
-    ul.a {
-        list-style-type: circle;
-    }</style>
+    <link href='https://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="//assets.decoded.com/images/apple-touch-icon.png">
+    <link rel="icon" sizes="296x296" href="//assets.decoded.com/images/apple-touch-icon.png">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Employee Open Data</title>
+    <style>
+        ul.a {
+            list-style-type: circle;
+        }
+    </style>
 </head>
 
 <body>
-<section>
-<h1>Employee Open Data</h1>
-<p>Compare yourself to employees at ________ in 30 seconds.</p>
+    <section>
+        <img src="./images/booth-location.png">
+        <h1>Employee Open Data</h1>
+        <p>Compare yourself to employees at ________ in 30 seconds.</p>
 
-<ul class="a">
- <li>Find employees like you</li>
- <li>See where you'd fit in the team</li>
- <li>Discover which leader you are most like</li>
-</ul>
- 
-<p id="message"> Just enter your Twitter handle below </p>
-<form action="https://api.decoded.com/checkin/CAPITAL-180516/"> <input name="username" Type="text" placeholder="Twitter handle"></form>
-</section>
+        <ul class="a">
+            <li>Find employees like you</li>
+            <li>See where you'd fit in the team</li>
+            <li>Discover which leader you are most like</li>
+        </ul>
 
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
-<script src="form.js"></script>
-<script src="geolocator.js"></script>
+        <p id="message"> Just enter your Twitter handle below </p>
+        <form action="https://api.decoded.com/checkin/CAPITAL-180516/">
+            <input name="username" Type="text" placeholder="Twitter handle">
+        </form>
+    </section>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
+    <script src="form.js"></script>
+    <script src="geolocator.js"></script>
 </body>
 
 </html>

@@ -1,34 +1,28 @@
-/*cascading means reads from top down, never add styles to head as don't see head part of page*/
-
-body{			
- background:url(https://pbs.twimg.com/media/Ch2hzaPWEAE-ngD.jpg);
-  background-size: cover;<!--cover allows image to be proportionally scaled to background-->
-  background-position: center;
+section img{
+  width:25%;
+  align-content: left;
 }
 
 section{
   background-color:rgba(236, 236, 236, 0.7);
-  /*colorpicker.com, a in rgba is transparency*/
-  /*alt command j or right click then 'inspect': click elements, use left box with arror icon, hover over part of page click and view source in right hand side*/
-  /*alt command j or right click then 'inspect': click device button, can view design on a bunch of different devices*/
   width: 80%;
-  margin: 20px; /*spacing outside*/
-  padding: 20px; /*spacing inside*/
+  margin: 20px; 
+  padding: 20px;
   color: #004977;
 }
-/*google fonts api https://www.google.com/fonts*/
-h1{font-family: 'Oswald', sans-serif;}
+
+h1{
+  font-family: 'Oswald', sans-serif;
+}
+
 input {
   border: none;
   padding: 5px;
   width: 100%;
   color: black; }
 
-/*Media Query- at some defined point ex. 640px something will happen*/
 @media (min-width:640px) {
   section{
     width:40%;/*40% of available space*/
     background: white;
   }
-  
-  /*decoded api https://api.decoded.com/*/
